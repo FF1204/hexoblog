@@ -44,7 +44,7 @@ def toHexo(root, file):
             edit_line = match.group(3)
             file_name = file.rstrip('.md')
             if edit_line.count(file_name) > 0:
-                edit_line = edit_line.lstrip().lstrip(file_name).lstrip('\\')
+                edit_line = edit_line.lstrip().lstrip(file_name).lstrip('/')
                 new_line = match.group(1) + \
                         match.group(2) + \
                         edit_line + \
@@ -75,7 +75,7 @@ def toGitHub(root, file):
             else:
                 new_line = match.group(1) + \
                         match.group(2) + \
-                        file_name + '\\' + match.group(3) + \
+                        file_name + r'/' + match.group(3) + \
                         match.group(4) + '\n'
             print(content[i])
             content[i] = new_line

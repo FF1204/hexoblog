@@ -56,7 +56,7 @@ url = https://[username]:[password]@github.com/...
 
 <!-- more -->
 
-![example for rememner git password](GIT的使用01-基本功能\remember_password.png)
+![example for rememner git password](GIT的使用01-基本功能/remember_password.png)
 
 ### 进一步学习
 
