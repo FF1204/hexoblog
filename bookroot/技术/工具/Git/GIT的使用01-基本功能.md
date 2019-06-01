@@ -63,3 +63,13 @@ url = https://[username]:[password]@github.com/...
 git的几个简单的命令足够日常使用，如果项进一步学习，可以参考一下资料：
 [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 [ProGit](https://git-scm.com/book/zh/v2)
+
+### 解决CMD中git中文乱码问题
+
+```
+git config --global core.quotepath false 
+git config --global gui.encoding utf-8
+git config --global i18n.commit.encoding utf-8 
+git config --global i18n.logoutputencoding utf-8 
+export LESSCHARSET=utf-8
+```
