@@ -29,7 +29,7 @@ after_script:
     - git init .
     - git add .
     - git commit -m "travis auto deploy"
-    - git push --force --quiet "https://120406191:120406191@gitee.com/120406191/hexoblog.git" master:master
+    - git push --force --quiet "https://FF1204:120406191@gitee.com/FF1204/hexoblog.git" master:master
 
 deploy:
   provider: pages
