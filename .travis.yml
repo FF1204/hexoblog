@@ -28,7 +28,7 @@ after_script:
     - git config user.email $GIT_EMAIL
     - git add .
     - git commit -m "travis auto deploy"
-    - git push --force --quiet "https://120406191:${CODING_TOKEN}@${CODING_REF}" master:master
+    - git push --force --quiet "https://120406191:120406191@gitee.com/120406191/hexoblog.git" master:master
 
 deploy:
   provider: pages
