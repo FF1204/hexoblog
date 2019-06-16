@@ -26,6 +26,7 @@ after_script:
     - cd ./public
     - git config user.name $GIT_NAME
     - git config user.email $GIT_EMAIL
+    - git init .
     - git add .
     - git commit -m "travis auto deploy"
     - git push --force --quiet "https://120406191:120406191@gitee.com/120406191/hexoblog.git" master:master
