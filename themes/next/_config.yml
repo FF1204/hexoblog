@@ -27,10 +27,10 @@ override: true
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /hexoblog/images/favicon-16x16-next.png
+  medium: /hexoblog/images/favicon-32x32-next.png
+  apple_touch_icon: /hexoblog/images/apple-touch-icon-next.png
+  safari_pinned_tab: /hexoblog/images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -239,13 +239,13 @@ post_wordcount:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: /images/wechat-qcode.jpg
+  qcode: /hexoblog/images/wechat-qcode.jpg
   description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
 
 # Reward
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: /images/weixin.png
-alipay: /images/alipay.png
+wechatpay: /hexoblog/images/weixin.png
+alipay: /hexoblog//images/alipay.png
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
