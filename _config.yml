@@ -78,8 +78,15 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+# deploy:
+#    type: git
+#    repo: https://ff120:120406191@git.coding.net/FF120/FF120.git 
+#    branch: coding-pages
+#    message: 
+#  - type: git
+#    repo: https://FF1204:g120406191@github.com/FF1204/FF1204.github.io.git
+#    branch: hexo
+#    message: come from auto deploy
 
 # local search 
 search:

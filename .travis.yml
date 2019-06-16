@@ -22,6 +22,18 @@ script: # 执行脚本，清除缓存，生成静态文件
   - hexo clean
   - hexo generate
 
+after_script:
+    - cd ./public
+    - git config user.name $GIT_NAME
+    - git config user.email $GIT_EMAIL
+    - git add .
+    - git commit -m "travis auto deploy"
+    - git push --force --quiet "https://120406191:${CODING_TOKEN}@${CODING_REF}" master:master
+
+env:
+    global:
+        - CODING_REF:https://gitee.com/120406191/hexoblog.git
+
 deploy:
   provider: pages
   skip_cleanup: true # 跳过清理
