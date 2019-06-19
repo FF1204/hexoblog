@@ -1,0 +1,15 @@
+image: daocloud/ci-node:0.12
+before_script:
+    - export TZ='Asia/Shanghai' #配置时区为东八区UTC+8
+    - npm install hexo-cli -g --registry=https://registry.npm.taobao.org
+    #  --registry=http://registry.npm.taobao.org 使用淘宝的npm源安装 更快捷
+    - npm install --registry=https://registry.npm.taobao.org
+    # - git clone https://github.com/luodaoyi/hexo-theme-next.git themes/next
+    # 克隆主题到主题目录 这里的主题Git地址和目录替换成你自己的主题地址和目录
+script:
+    - npm install
+    - hexo clean
+    - hexo g
+    # 生成html
+    - hexo d
+    # 发布html代码，根据你hexo的设置可以发布到多个平台
