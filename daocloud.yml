@@ -11,4 +11,3 @@ script:
     - hexo g
     # 生成html
     - hexo d
-    # 发布html代码，根据你hexo的设置可以发布到多个平台
