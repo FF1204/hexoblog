@@ -20,7 +20,9 @@ install:
 
 script: # 执行脚本，清除缓存，生成静态文件
   - hexo clean
-  - hexo generate
+  - hexo generate --config _config.next.yml
+  - hexo clean
+  - hexo generate --config _config.wikitten.yml
 
 after_script:
     - cd ./public
