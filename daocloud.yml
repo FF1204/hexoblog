@@ -1,4 +1,4 @@
-image: daocloud.io/ff120/hexo
+image: library/node:4.4.0-onbuild
 before_script:
     - export TZ='Asia/Shanghai' #配置时区为东八区UTC+8
     - npm install hexo-cli -g --registry=https://registry.npm.taobao.org
