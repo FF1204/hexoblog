@@ -80,10 +80,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-    - type: git
-      repo: https://FF1204:g120406191@github.com/FF1204/hexoblog.git
-      branch: hexo
-      message: travis-ci commit
+    type: git
+    repository: git@github.com:FF120/hexoblog.git
+    branch: hexo
+    message: travis-ci commit
 
 # local search 
 search:
