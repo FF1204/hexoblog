@@ -10,4 +10,4 @@ script:
     - hexo clean
     - hexo g
     # 生成html
-    - hexo deploy
+    - hexo d
