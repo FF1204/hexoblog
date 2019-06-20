@@ -80,10 +80,10 @@ theme: Wikitten
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-    type: git
-    repo: https://FF1204:120406191@gitee.com/FF1204/hexoblog.git 
-    branch: master
-    message: travis-ci commit
+    - type: git
+      repo: https://FF1204:120406191@gitee.com/FF1204/hexoblog.git 
+      branch: master
+      message: travis-ci commit
 
 # local search 
 search:
