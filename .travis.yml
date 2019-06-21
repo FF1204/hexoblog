@@ -17,7 +17,6 @@ before_install:
   - npm install -g gulp > /dev/null
   - git config user.name $GIT_NAME
   - git config user.email $GIT_EMAIL
-  - sed -i'' "s~git@github.com:~https://${GITHUB_TOKEN}@github.com/~" _config.yml
   #  - sudo apt-get install libpng16-dev # 安装 libpng16-dev CI编译出现相关报错时请取消注释
 
 install:
