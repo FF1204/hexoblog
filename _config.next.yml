@@ -81,7 +81,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
     type: git
-    repo: https://${GITHUB_TOKEN}@github.com/FF120/hexoblog.git
+    repo: https://FF1204:g120406191@github.com/FF120/hexoblog.git
     branch: master
     message: travis-ci commit
 
