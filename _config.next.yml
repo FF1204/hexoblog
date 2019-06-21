@@ -82,7 +82,7 @@ theme: next
 deploy:
     type: git
     repo: git@github.com:FF120/hexoblog.git
-    branch: hexo
+    branch: master
     message: travis-ci commit
 
 # local search 
